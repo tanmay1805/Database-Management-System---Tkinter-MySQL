@@ -14,7 +14,7 @@ header.grid(row=0,column=0,columnspan=3,pady=15)
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="...passord for database...",
+    passwd="...password for database...",
     database="...yourdatabase...",
     auth_plugin="caching_sha2_password"
 )
